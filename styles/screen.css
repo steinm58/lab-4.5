@@ -46,8 +46,11 @@ h1 {
 .circle-sun {
     height: 320px;
     width: 320px;
+    border-style: solid;
+    border-color: #FACE75;
+    box-shadow: 0 0 30px #F8B93A;
     border-radius: 50%;
-    background: var(--text-color);
+    background: radial-gradient(#FFC857, #FFC71F);
     margin: auto;
 }
 
@@ -77,4 +80,76 @@ h1 {
     padding-top: 10px;
     font-size: 20px;
     font-weight: normal;
+}
+
+.circle.mercury {
+    height: 90px;
+    width: 90px;
+    background: radial-gradient(#D9CAB3, #8C7A6B);
+}
+
+.planet.mercury {
+    padding-top: 65px;
+}
+
+.name.mercury {
+    padding-top: 45px;
+}
+
+.circle.venus {
+    background: radial-gradient(#C99669, #895737);
+}
+
+.circle.earth {
+    background: radial-gradient(#216697, #14591D);
+}
+
+.circle.mars {
+    height: 100px;
+    width: 100px;
+    background: radial-gradient(#99371E, #551E11);
+}
+
+.planet.mars {
+    padding-top: 60px; 
+}
+
+.name.mars {
+    padding-top: 40px;
+}
+
+.circle.jupiter {
+    height: 170px;
+    width: 170px;
+    background: radial-gradient(#EFD6AC, #FF7E33);
+}
+
+.planet.jupiter {
+    padding-top: 15px;
+}
+
+.name.jupiter {
+    padding-top: 15px;
+}
+
+.circle.saturn {
+    height: 140px;
+    width: 140px;
+    background: radial-gradient(#C89E56, #9C6615);
+}
+
+.planet.saturn {
+    padding-top: 40px;
+}
+
+.name.saturn {
+    padding-top: 20px;
+}
+
+.circle.uranus {
+    background: radial-gradient(#7BDEF4, #60ACE6);
+}
+
+.circle.neptune {
+    background: radial-gradient(#60ACE6, #17598C);
 }
